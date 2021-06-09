@@ -12,7 +12,7 @@ def search_player():
 	exists = 0
 	if name is None or len(name) < 2:
 		messagebox.showerror("Info Player","please enter your player soccer name")
-	else:
+	else: # this will change
 		for player in players:
 			if name.title() in player['commonName'] or name.title() in player['firstName'] or name.title() in player['lastName']:
 				ent_team = Entry(root,border=2,bg="lightgray",width=10,borderwidth=2,font=("Scooby Doo",10))
