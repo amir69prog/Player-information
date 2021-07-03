@@ -4,7 +4,7 @@ from PIL import ImageTk, Image
 import requests
 from tkinter import messagebox
 
-# ++++++++++ functions ==========
+# ========= functions ==========
 def search_player():
 	page = requests.get("https://www.easports.com/fifa/ultimate-team/api/fut/item").json()
 	players = page['items']
