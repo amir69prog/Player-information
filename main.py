@@ -60,7 +60,6 @@ root = Tk()
 root.title("Player")
 root.geometry("600x450")
 root.resizable(False,False)
-root.iconbitmap("images/football.ico")
 root.config(bg="green")
 
 
